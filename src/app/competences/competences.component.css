@@ -1,0 +1,37 @@
+h1{
+    color: #ffffff;   
+    margin-top: 15%;
+    text-align: center;
+   }
+   a{
+    text-decoration: none;
+   
+}
+a:hover{
+    color: #ffffff;
+}
+article{
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+img{
+    width: 5%;
+}
+p{
+   color:black !important;
+   font-weight: bold;
+   font-size: larger;
+}
+
+@media screen and (max-width: 800px){
+    img{
+        width: 40%;
+    }
+    p{
+        font-size: medium; 
+    }
+}

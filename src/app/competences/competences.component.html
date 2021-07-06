@@ -1,0 +1,9 @@
+
+<h1><a href routerLink = "/competences">Compétences</a></h1>
+
+<article *ngFor="let c of competencesServ.competences">
+   <h3>{{ c.nom }}</h3>
+   <img [src]="c.img" alt="c.description">
+   <p>{{ c.description }}</p>
+
+</article>

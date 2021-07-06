@@ -1,0 +1,85 @@
+h1 {
+  color: #ffffff;
+  margin-top: 10%;
+  text-align: center;
+}
+section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin-top: 5%;
+}
+article {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 50%;
+}
+h2 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #ffffff;
+}
+.overlay {
+  position: absolute;
+  margin-top: 3.5rem;
+  width: 50%;
+  height: 80%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: rgb(138, 19, 49);
+}
+
+.projects:hover .overlay {
+  opacity: 1;
+}
+
+.icon {
+  color: white;
+  font-size: 5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-items: left;
+}
+.contact p{
+  color:black;
+   font-weight: bold;
+   font-size: larger;
+}
+
+@media screen and (max-width: 730px) {
+  section {
+    flex-direction: column;
+  }
+
+  
+}
+
+
+
+@media screen and (max-width: 449px) {
+  .icon {
+    font-size: 3rem;
+  }
+}

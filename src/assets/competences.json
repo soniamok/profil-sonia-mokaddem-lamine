@@ -1,0 +1,13 @@
+
+  [
+    {"nom":"PHP", "img":"/assets/img/php.png", "description":"Manipulation de quelques projets en php en dur dans le cadre de la formation"},
+    {"nom":"Symfony", "img":"/assets/img/symfony.png", "description":"Réalisation d'un projet de blog avec le framework Symfony , le moteur de templates twig"},
+    {"nom":"WordPress", "img":"/assets/img/wordpress.png", "description":"Projet d'un site vitrine pour un client "},
+    {"nom":"MYSQL", "img":"/assets/img/mysql.png", "description":"Gestion de bases de données"},
+    {"nom":"Angular", "img":"/assets/img/angular.png", "description":"Le site sur lequel vous êtes actuellement est réalisé en Angular"},
+    {"nom":"JS", "img":"/assets/img/js.png", "description":"Manipulation de quelques projets avec javascript dans le cadre de la formation"},
+    {"nom":"CSS", "img":"/assets/img/css3.png", "description":"Tous les projets ont été réalisés avec du css"},
+    {"nom":"HTML", "img":"/assets/img/html5.png", "description":"Ce langage a été utilisé dans tous les projets ci-haut cités"}
+    
+  ]
+
